@@ -1,6 +1,6 @@
 document.getElementById('jokeBtn').addEventListener('click', async () => {
     try {
-      const response = await fetch('https://caramblagues-test.onrender.com/api/jokes/random'); // Remplacer par l'URL de votre API déployée
+      const response = await fetch('https://carambarandco.onrender.com/api/jokes/random'); // Remplacer par l'URL de votre API déployée
       if (!response.ok) {
         const errorData = await response.json();
         throw new Error(errorData.error || 'Something went wrong');
