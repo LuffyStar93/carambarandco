@@ -1,27 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background-color: #f0f0f0;
+    height: 100vh;   
+    font-weight: 700;
+    background-image: url(https://www.carambarco.com/wp-content/uploads/2021/03/carambar.jpg);
+    background-size:auto;
+
 }
 
 .container {
     text-align: center;
-    background-color: #fff;
-    padding: 20px;
+    background-color: rgba(0,0,0,.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 50%;
+    /* padding: 30px; */
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+
+#welcome{
+    color: #cb2229; 
+    font-size: 45px; 
+    /* text-shadow: 0 0 3px #fff12c; */
+    -webkit-text-stroke: 2px #fff12c;
+    }
+
+
+#logo{
+  margin: 20px;
+  /* min-height: 120px; */
+  max-height: 200px;
+  /* min-width: 300px; */
+  max-width: 200px;
+}
+
 button {
+    color: #cb2229;
+    background-color: rgba(223, 211, 37, .9);
+    font-weight: 700;
+    /* border: 5px #dfd325; */
+    border-color: #dfd325;
+    border-radius: 10px;
     padding: 10px 20px;
+    margin: 10px;
     font-size: 16px;
     cursor: pointer;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+#img_carambar{
+    width: 30px;
+    height: 30px;
+
 }
 
 #jokeDisplay {
-    margin-top: 20px;
+    display: block;
+    color: #fff;
+    margin-top: 30px;
+    min-height: 50px;
+    max-height: 50px;
     font-size: 18px;
 }
